@@ -8,7 +8,7 @@
  }
  stage('Push Docker Image')
  {
-   sh "docker login -u kiranpayyavuala -p ourdockerhubpassword"
+   sh "docker login -u dockehunusername -p ourdockerhubpassword"
    sh 'docker push kiranpayyavuala/myapp:1.0'
 }
 }
