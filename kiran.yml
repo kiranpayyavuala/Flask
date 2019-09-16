@@ -1,5 +1,5 @@
 ---
- - hosts: localhost
+ - hosts: 34.221.96.41
    become_user: ansible
    tasks:
      - name: Build python msge
