@@ -1,10 +1,10 @@
 ---
  - hosts: localhost
+   become_user: ansible
    tasks:
-   become: true
-     - name: Build springboot image
+     - name: Build python msge
        docker_image:
-         path: .
-         name: kiranpayyavuala/myapp
+         path:
+         name: kiran
          tag: v1
-         source: build
+         sourcce: build
