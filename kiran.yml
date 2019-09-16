@@ -2,9 +2,9 @@
  - hosts: localhost
    tasks:
    become: true
-   - name: Build springboot image
-     docker_image:
-       path: .
-       name: kiranpayyavuala/myapp
-       tag: v1
-       source: build
+     - name: Build springboot image
+       docker_image:
+         path: .
+         name: kiranpayyavuala/myapp
+         tag: v1
+         source: build
